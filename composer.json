@@ -1,6 +1,11 @@
 {
     "name": "bvp/amagasaki-scraper",
     "description": "The BVP Amagasaki Scraper package for Boatrace.",
+    "keywords": [
+        "boatrace",
+        "library",
+        "scraper"
+    ],
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -9,9 +14,13 @@
             "email": "developer@shimomo.net"
         }
     ],
+    "support": {
+        "issues": "https://github.com/shimomo/bvp-amagasaki-scraper/issues",
+        "source": "https://github.com/shimomo/bvp-amagasaki-scraper"
+    },
     "require": {
         "php": "^8.2",
-        "bvp/scraper-core": "^4.0",
+        "bvp/scraper-core": "^5.x-dev",
         "nesbot/carbon": "^2.63 || ^3.0"
     },
     "require-dev": {
@@ -26,5 +35,7 @@
         "psr-4": {
             "BVP\\AmagasakiScraper\\Tests\\": "tests/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
