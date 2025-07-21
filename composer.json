@@ -1,4 +1,5 @@
 {
+    "$schema": "https://getcomposer.org/schema.json",
     "name": "bvp/amagasaki-scraper",
     "description": "The BVP Amagasaki Scraper package for Boatrace.",
     "keywords": [
@@ -11,7 +12,7 @@
     "authors": [
         {
             "name": "shimomo",
-            "email": "developer@shimomo.net"
+            "email": "bvp@shimomo.net"
         }
     ],
     "support": {
@@ -20,7 +21,7 @@
     },
     "require": {
         "php": "^8.2",
-        "bvp/scraper-core": "^5.x-dev",
+        "bvp/scraper-core": "^5.0",
         "nesbot/carbon": "^2.63 || ^3.0"
     },
     "require-dev": {
